@@ -1,5 +1,5 @@
 <div align="center">
-<h1> <img src="assets/logo.png" style="vertical-align: -10px;" :height="50px" width="50px"> Unleashing Scientific Reasoning for Bio-experimental Protocol Generation via Structured Component-based Reward Mechanism </h1>
+<h1> <img src="asset/logo.png" style="vertical-align: -10px;" :height="50px" width="50px"> Unleashing Scientific Reasoning for Bio-experimental Protocol Generation via Structured Component-based Reward Mechanism </h1>
 </div>
 
 <h4 align="center"> If you find this project useful, please give us a star🌟.<h4 align="center"> 
@@ -8,7 +8,7 @@
 
 ## ⚡Introduction 
 
-<img src="assets/intro.png" style="zoom: 33%; display: block; margin: auto;" />
+<img src="asset/intro.png" style="zoom: 33%; display: block; margin: auto;" />
 
 **SciRecipe & Thoth** introduce a reproducible pathway for autonomous wet-lab protocol generation.
 We release SciRecipe, a dataset of 12K+ expert-curated biological protocols across 27 subfields, supporting both comprehension and problem-solving tasks.
@@ -17,7 +17,7 @@ Based on these ideas, we develop Thoth, a staged Knowledge-to-Action model that 
 
 ## 📚 SciRecipe
 
-<img src="assets/data.png" style="zoom: 33%; display: block; margin: auto;" />
+<img src="asset/data.png" style="zoom: 50%; display: block; margin: auto;" />
 
 We introduce the **SciRecipe** dataset, designed to improve and evaluate LLMs in experimental protocol understanding and generation. SciRecipe comprises eight task types, grouped into two categories: Protocol-Comprehension Tasks (overview and specific), targeting global summarization and fine-grained analysis, and Problem-Solving Tasks (retrieval, planning, troubleshooting, constraint, scaling, and safety), simulating typical challenges encountered throughout experimental workflows.
 
@@ -62,11 +62,11 @@ You can use the script we provide in `./eval/eval_batch.py` to evaluate the Scir
 Main results on SciRecipe-Eval. Metrics left of the dashed line evaluate executability, those on the right measure lexical similarity. Bold denotes the best score.
 
 <div align=center>
-<img width="650" alt="image" src="assets/res1.png">
+<img width="650" alt="image" src="asset/res1.png">
 </div>
 
 <div align=center>
-<img width="750" alt="image" src="assets/res2.png">
+<img width="550" alt="image" src="asset/res2.png">
 </div>
 
 ## 🐎 TODO
