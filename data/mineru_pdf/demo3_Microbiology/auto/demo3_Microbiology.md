@@ -1,0 +1,171 @@
+# Evaluation of the Condition of Respiration and Photosynthesis by Measuring Chlorophyll Fluorescence in Cyanobacteria
+
+Takako Ogawa1 and Kintake Sonoike2,\*
+
+1School of Science and Technology, Kwansei Gakuin University, Sanda, Hyogo, Japan; 2Faclty of Education and Integrated Arts and Sciences, Waseda University, Shinjuku-ku, Tokyo, Japan \*For correspondence: sonoike@waseda.jp
+
+[Abstract] Chlorophyll fluorescence measurements have been widely used to monitor the condition of photosynthesis. Furthermore, chlorophyll fluorescence from cyanobacteria reflects the condition of respiration, since cyanobacterial photosynthesis shares several components of electron transport chain with respiration. This protocol presents the method to monitor the condition of both photosynthesis and respiration in cyanobacteria simply by measuring chlorophyll fluorescence in the dark and in the light with pulse amplitude modulation (PAM) chlorophyll fluorometer.
+
+Keywords: Cyanobacteria, Chlorophyll fluorescence, Non-photochemical quenching, Photosynthesis, Respiration
+
+[Background] Chlorophyll fluorescence measurements have been widely used to monitor the condition of photosynthesis in many photosynthetic organisms (Krause and Weis, 1991; Govindjee, 1995). In the case of cyanobacteria, the photosynthetic prokaryotes, chlorophyll fluorescence can be affected not only by the condition of photosynthesis but also by that of other metabolic pathways due to possible interactions among metabolic pathways within the cells. In particular, photosynthesis and respiration share several components of electron transport chain, such as plastoquinone (PQ) in cyanobacteria (Aoki and Katoh, 1982; Peschek and Schmetterer, 1982). The redox state of the PQ pool influences the yield of chlorophyll fluorescence through the regulation of state transition (Mullineaux and Allen, 1986; Mullineaux et al., 1997), which is the main component of the non-photochemical quenching in cyanobacteria (Campbell and Öquist, 1996). Thus, the cyanobacterial respiratory chain directly affects chlorophyll fluorescence especially in the dark, where photosynthesis is not active. Due to the influence of respiration, chlorophyll fluorescence should be measured with caution in order to estimate photosynthesis precisely in cyanobacteria (Ogawa et al., 2013). On the other hand, the involvement of both photosynthesis and respiration in cyanobacterial chlorophyll fluorescence allows the estimation of not only photosynthesis but also respiration. In this protocol, we provide the method to monitor the condition of respiration and photosynthesis in cyanobacteria through the analysis of NPQ, the chlorophyll fluorescence parameter reflecting the level of non-photochemical quenching, measured in the dark (NPQDark) and under low light (NPQLL).
+
+# Materials and Reagents
+
+1. Cyanobacteria
+
+Note: The cyanobacterium Synechocystis sp. PCC 6803 is grown at 30 °C in BG11 medium (Rippka et al., 1979), buffered with 20 mM TES-KOH (pH 8.0) or 20 mM CHES-KOH (pH 9.0) and bubbled with air for 24 h under continuous illumination using fluorescent lamps.
+
+2. Ferric ammonium citrate (Wako Pure Chemical Industries, catalog number: 092-00802)
+
+3. Na2EDTA·2H2O (Wako Pure Chemical Industries, catalog number: 345-01865)
+
+4. Sodium nitrate (NaNO3) (Wako Pure Chemical Industries, catalog number: 192-02555)
+
+5. Dipotassium hydrogenphosphate (K2HPO4) (Wako Pure Chemical Industries, catalog number: 164-04295)
+
+6. Magnesium sulfate (MgSO4) (anhydrous) (Wako Pure Chemical Industries, catalog number: 132-00435)
+
+7. Calcium chloride (CaCl2) (Wako Pure Chemical Industries, catalog number: 038-24985)
+
+8. Sodium carbonate (Na2CO3) (Wako Pure Chemical Industries, catalog number: 199-01585)
+
+9. Boric acid (H3BO4) (Wako Pure Chemical Industries, catalog number: 029-02191)
+
+10. Manganese(II) chloride tetrahydrate (MnCl2·4H2O) (Wako Pure Chemical Industries, catalog number: 139-00722)
+
+11. Zinc sulfate heptahydrate (ZnSO4·7H2O) (Wako Pure Chemical Industries, catalog number: 264-00402)
+
+12. Copper(II) sulfate pentahydrate (CuSO4·5H2O) (Wako Pure Chemical Industries, catalog number: 039-04412)
+
+13. Disodium molybdate(VI) dihydrate (Na2MoO4·2H2O) (Wako Pure Chemical Industries, catalog number: 196-02472)
+
+14. Sulfuric acid (Wako Pure Chemical Industries, catalog number: 192-04696)
+
+15. Cobalt(II) nitrate hexahydrate (Co(NO3)2·6H2O) (Wako Pure Chemical Industries, catalog number: 031-03752)
+
+16. TES (Wako Pure Chemical Industries,, catalog number: 340-02655)
+
+17. Potassium hydroxide (KOH) (Wako Pure Chemical Industries, catalog number: 168-21815)
+
+18. 3-(3,4-dichlorophenyl)-1,1-dimethylurea (DCMU) (TCI, catalog number: D1328) Note: 3-(3,4-dichlorophenyl)-1,1-dimethylurea (DCMU) is an inhibitor of electron transport from QA to QB in photosystem II (PSII), thus oxidizing PQ pool under illumination. DCMU is used to determine maximum chlorophyll fluorescence level (Fm). We dissolve DCMU in ethanol (see below), and the stock solution at the concentration of 10 mM is added to the sample (equivalent to the final concentration of 20 μM) to determine the Fm level. DCMU solution can be stored for months in a freezer at -20 °C.
+
+19. Ethanol (Wako Pure Chemical Industries, catalog number: 057-00456)
+
+20. BG11 stock solutions (see Recipes)
+
+21. BG11 medium (see Recipes)
+
+# 22. 10 mM DCMU solution in ethanol (see Recipes)
+
+# Equipment
+
+1. Test tubes (IWAKI, catalog number: TEST30NP)   
+2. Spherical micro quantum sensor (Heinz Walz, model: US-SQS/L) Note: The light meter and the spherical micro-quantum sensor are used for measuring photon flux density of growth light and actinic light of WATER-PAM. It is advisable to use spherical micro-sensor for monitoring the photon flux density of actinic light of WATER-PAM, since the light illuminate samples from multiple directions.   
+3. Light meter (LI-COR, model: LI-250A)   
+4. Fluorometer (Heinz Walz, model: WATER-PAM) Note: WATER-PAM (Heinz Walz, http://www.walz.com/products/chl_p700/water-pam/introduct ion.html) is a pulse amplitude modulation (PAM) fluorometer designed for measuring aquatic samples with low chlorophyll content. We use the Red LED type of the fluorometer with the emitter-detector unit of CUVETTE Version. The Red LED type of WATER-PAM is equipped with 3 LEDs peaking at 650 nm for the measuring light, 12 LEDs peaking at 660 nm for the actinic light as well as for the saturating pulse, and 3 LEDs peaking at 460 nm for blue light, which preferentially excite photosystem I (PSI) in cyanobacteria.   
+5. Quartz cuvette for WATER-PAM (Heinz Walz, model: WATER-K)   
+6. Spectrophotometer (JASCO, model: V-650) Note: The optical density of cell cultures at 750 nm is determined by the spectrophotometer. Any other common spectrophotometer can be used for this purpose.
+
+# Software
+
+1. PC software ‘WinControl’ (WALZ, ver.3.22) Note: WATER-PAM is operated from the PC software ‘WinControl’.
+
+# Procedure
+
+A. The goal of this protocol To estimate the condition of both photosynthesis and respiration, we determine NPQ, a parameter representing non-photochemical quenching of chlorophyll fluorescence, which predominantly reflects the redox state of PQ pool. NPQ is calculated as (Fm - Fm’)/Fm’, where Fm is the maximum fluorescence level determined under fully oxidized PQ pool (i.e., State 1 condition), while Fm’ is that under reduced PQ pool conditions where State 2 is partly induced. In this protocol, Fm’ is determined both in the dark (Fm’Dark) and under illumination with low light (Fm’LL), and each value is used for calculation of NPQ in the dark (NPQDark = (Fm - Fm’Dark)/Fm’Dark)
+
+or that under illumination with low light (NPQLL = (Fm - Fm’LL)/Fm’LL), respectively. From these two parameters, we can collect information about the condition of photosynthesis and respiration.
+
+B. Culture of cyanobacteria
+
+The cyanobacterium Synechocystis sp. PCC 6803 is cultured at 30 °C in BG11 medium in a test tube (see in the “Recipes” section), bubbled with air for 24 h under continuous light (120 μmol m-2 sec-1) and served for the measurement. Photon flux density of growth light is determined by a spherical micro-sensor (WALZ, US-SQS/L) with a light meter (LI-250A, LI-COR Biosciences).
+
+C. Setting WATER-PAM for the measurement
+
+Prior to the measurement by WATER-PAM, set the levels of the measuring light, actinic light and saturating pulse in the <Settings> panel of the WinControl software. The levels should be set as follows: 1. Measuring light frequency (<Freq.> setting) at the level 2 of 12 steps. 2. Measuring light intensity (<Int.> setting) at the level 2 of 12 steps. Note: By these settings, measuring light is weak enough to avoid excitation of photosystems (see also the note below). 3. Saturating pulse intensity (<Int.> setting) at the level 12 of 12 steps and saturating pulse width at 0.8 sec. 4. Actinic light amplitude (<Ampl.> setting) at the level 10 of 12 steps and actinic light intensity (<Int.> setting) at the level that gives the necessary photon flux density of the actinic light. Note: We determine photon flux density of actinic light in a cuvette (WALZ, WATER-K) filled with MilliQ water by using a spherical micro-quantum sensor (WALZ, US-SQS/L) with a light meter (LI-COR Biosciences, LI-250A). Photon flux density of measuring light, saturating pulse and actinic light by the settings described above is < 0.01, > 4,000 or 100 μmol m-2 sec-1, respectively. D. The procedure for recording chlorophyll fluorescence in cyanobacteria by WATER-PAM 1. Preparation of a sample for the measurement Cell cultures are adjusted to the optical density of 0.2 at 750 nm, which is approximately equivalent to 1 μg/ml of chlorophyll in Synechocystis sp. PCC 6803, when cells are grown under the condition described in the “Materials and Reagents” section. Notes: a. Prepare > 4 ml of the sample. 2 ml of the sample will be used for the measurement of Fm’, and another 2 ml for the measurement of Fm. b. In the case of Synechocystis sp. PCC 6803, the sample is not necessary to be stirred during the measurement within about 15 min. If you deal with samples necessary to be stirred, the stirring device for CUVETTE Version of WATER-PAM (WALZ, WATER-S) is available for stirring cell culture during the measurement.
+
+2. Measurements of Fm’, the quenched fluorescence level, either in the dark (Fm’Dark) or under illumination with low light (Fm’LL)
+
+a. The sample (2 ml) is dark-acclimated for 10 min prior to the measurement in the sample chamber of the WATER-PAM. Note: Please make sure that checkboxes in the <Status> panel (circled by a yellow square in Figure 1, a screenshot of the software) at the bottom left of the window of the WinControl software are all cleared except for the <PM active> checkbox during the dark-acclimation.   
+b. After the dark-acclimation, time course change in the level of chlorophyll fluorescence is determined in the <Chart> panel (circled by a red square in Figure 1) of the WinControl software as follows: i. First, start the recording of chlorophyll fluorescence by clicking <Start Onl. Rec.> button at the bottom right of the <Chart> panel (or checking <Rec. Online> checkbox at the top right of the <Chart> panel). Then, start illumination with measuring light by checking <Meas. Light> checkbox in the <Status> panel at the bottom left of the window. The level of chlorophyll fluorescence rises from zero to the Fo’ level (This is NOT the Fo level in the case of cyanobacteria. See Note described below), the minimum fluorescence level with reduced PQ pool already in the dark. Note: Please keep in mind that, unlike in the case of land plants, the chlorophyll fluorescence level is already quenched from original Fo level to Fo' level in the dark-acclimated cyanobacterial cells, due to the reduction of PQ pool by respiratory electron transport in the dark. ii. Subsequent application of 0.8 sec pulse of saturating light by checking the <SAT-Pulse> checkbox in the <Status> panel at the bottom left of the window induces the increase of fluorescence level to Fm’ level in the dark (Fm’Dark). The value of this Fm’ level in the dark, which is used for calculating NPQDark = (Fm - Fm’Dark)/Fm’Dark, is displayed in the <Result> panel (circled by a blue square in Figure 1) at the right side of the window and can be always checked in the <Report> panel. Note: Please note that the peak height of the fluorescence increase triggered by the application of saturating light may not reach the level of Fm' (indicated by 'x' in Figure 1) because of the problem in pixel resolution of the screen. iii. Subsequently, start illumination with actinic light by checking <Act. Light> checkbox in the <Status> panel. After the fluorescence level reaches the stable level under illumination, apply a saturating pulse to the sample to determine the Fm’ level under illumination with low light (the Fm’ level used for calculating NPQLL, which is calculated as (Fm - Fm’LL)/Fm’LL).
+
+![](images/a38745277d9601264784fa939e2203fc4cf11381a7671c05a03e2914577d2177.jpg)
+
+Figure 1. The window of the PC software “WinControl”, displaying time course change in chlorophyll fluorescence in <Chart> panel. Black arrowheads represent the time of illumination with saturating pulse. In the measurement shown in Figure 1, effect of high light (HL) was examined following the routine determination of Fm’ in the dark and under low light.
+
+3. Measurement of Fm, the maximum fluorescence level
+
+a. To measure the Fm level, add 20 μM DCMU (final concentration) to 2 ml of the fresh sample prepared in Step D1. Note: Since the chlorophyll fluorescence in cyanobacteria is already quenched in the dark, the maximum fluorescence level (Fm) must be determined in the presence of DCMU in the light, which oxidizes PQ pool and thus brings the cells to State 1 to eliminate quenching of the fluorescence. It is possible to add DCMU to the sample after determining Fm’ levels as described above, but sometimes actinic illumination may change the condition of the sample to interfere the precise determination of Fm, especially in the case of gene-disruptants. Thus, it is advisable to determine Fm level in a separate fresh sample.   
+b. Set the sample in the sample chamber of WATER-PAM, and then start recording with measuring light. To determine the Fm level, apply saturating pulse to the sample under different levels of actinic light. Actinic light should be changed from low level to high level by clicking the upward arrow at the right side of <Act. Int> value in <Basic> panel at the bottom of the window, and find the maximum level of fluorescence signal by confirming the value of Fm’ in the <Result> panel. Note: There is no need to dark-acclimate the sample prior to the measurement of Fm in this
+
+procedure. And note that the value of Fm is displayed in the <Fm’> Box but not in the <Fm>
+
+Box in the <Result> panel in this procedure, because the <Fo, Fm> button is not used (see the “Notes” section).
+
+# Data analysis
+
+1. In cyanobacteria, it has been reported that the level of non-photochemical quenching is high both under dark condition and under high light condition, while low under light intensity near to growth light condition, and the light-dependency of non-photochemical quenching describes a concave curve (Campbell and Öquist, 1996; Sonoike et al., 2001). The high level of non-photochemical quenching in the dark reflects the reduction of the PQ pool by the respiratory chain, while the low level of that under growth light condition reflects the oxidation of PQ pool through the activity of PSI. The situation is different in the disruptant of ndhF1 gene which encodes a subunit of type 1 NAD(P)H dehydrogenase (NDH-1) complex donating electron to the PQ pool in the respiratory chain (Mi et al., 1992; Battchikova et al., 2011), of the cyanobacterium Synechocystis sp. PCC 6803. The difference between NPQdark and NPQLL was diminished and the concave shape of the light-dependency curve was hardly observed (Ogawa and Sonoike, 2015). This indicates that the light-dependency of non-photochemical quenching reflects the balance between respiration and photosynthesis in cyanobacteria, through the redox state of the PQ pool. In other words, the level of non-photochemical quenching reflects the condition of both respiration and photosynthesis.
+
+2. The value of NPQLL could be affected by the condition of respiration as well as by that of photosynthesis. We have reported that the disruption of ndhF1 gene or ndhD1/D2 genes, which encode subunits of the NDH-1 complex serving in the respiratory electron transport, brought about the decrease of NPQLL as well as of NPQDark through the oxidation of the PQ pool under illumination due to the poor electron supply to the PQ pool from the respiratory chain (Ogawa and Sonoike, 2015). To assess whether the change in the value of NPQLL is caused by respiration or photosynthesis, it is also necessary to determine NPQDark.
+
+3. The value of fluorescence level necessary to calculate NPQ can be checked in the <Result> panel at the right side of the window (circled by a blue square in Figure 1) during the measurement or any time in the <Report> panel. In the <Report> panel, the measured fluorescence level is displayed in the order of time course. The value of Fm’Dark or that of Fm’LL, in the measurement demonstrated in Figure 1, is 481 or 508, respectively, and that of Fm measured with a fresh sample is 638. In this case, NPQDark and NPQLL are calculated as; NPQDark = (Fm - Fm’Dark)/Fm’Dark = (638 - 481)/481 = 0.326 NPQLL = (Fm - Fm’LL)/Fm’LL= (638 - 508)/508 = 0.256 In this particular case, the value of NPQDark (0.362) is higher than that of NPQLL (0.256). This is a sure sign of the reduced PQ pool in the dark usually brought about by the electron flow from respiratory chain. In the gene-disruptant of Synechocystis sp. PCC 6803 deficient in electron supply to PQ pool from respiratory NDH-1 complex, NPQDark is much smaller than that in wild type strain (Ogawa and Sonoike, 2015). Furthermore, in some cyanobacterial species that adapted to low light environment, the level of NPQDark was reported to be also very low (Misumi et al., 2016). NPQ decreases upon light illumination from NPQDark to NPQLL, presumably due to the oxidation of PQ pool by the action of PSI. Thus, the difference between the level of NPQDark and that of NPQLL could be used for the evaluation of the relative content of PSI. At least in certain cases, the positive correlation between relative difference of NPQ (i.e., (NPQDark - NPQLL)/NPQLL) and the photosystem stoichiometry (i.e., the ratio of PSI/PSII) was observed (Ogawa and Sonoike, 2015). Interestingly, these characteristics were observed not only in cyanobacteria but also in eukaryotic algae. It has been reported that in the glaucophyte Cyanophora paradoxa, PQ pool in the dark is reduced by chlororespiration, and it exhibits high NPQDark in the dark-acclimated cells (Misumi and Sonoike, 2017). Thus, this protocol can be applied to the evaluation of interaction between photosynthesis and chlororespiration at least in some eukaryotic algae, in addition to the measurements in cyanobacteria. For the interpretation of the results, however, one must pay attention to the points described below.
+
+4. It must be noted that, not only fluorescence from chlorophyll of PSII but also that from phycobilisome, which does not quench as PSII fluorescence does, contributes to the fluorescence signal in cyanobacteria (Campbell et al., 1998). Contribution of the phycobilisome fluorescence to the fluorescence signal causes underestimation of the chlorophyll fluorescence parameters, including NPQ (Ogawa and Sonoike, 2016). Therefore, the values of NPQ cannot be compared between samples with different phycobilisome content. Correction of the fluorescence signal through the subtraction of the contribution of phycobilisome fluorescence is necessary to determine the actual level of chlorophyll fluorescence (Ogawa and Snoike, 2016).   
+5. The value of NPQ can be affected by the action of orange carotenoid protein (OCP) under strong blue light (Kirilovsky, 2007). In this protocol, however, action of OCP is negligible, since red LEDs are used as the actinic light for the measurements.
+
+# Notes
+
+1. The procedure of measuring chlorophyll fluorescence by PAM fluorometer in cyanobacteria is different in many ways from that generally used for land plants. Fm level can be determined in land plants by illumination with saturating pulse in the dark, where photosynthesis is not active and the PQ pool is oxidized. However, PQ pool is reduced in the dark by respiratory chain in many cyanobacterial species (Misumi et al., 2016). Thus, Fm level should be determined either in the presence of DCMU in the light (Campbell et al., 1998) or under weak blue light which preferentially excites PSI (El Bissati et al., 2000) by oxidizing PQ pool in cyanobacteria. In this protocol, the procedure of measuring Fm in the presence of DCMU is introduced.   
+2. Since PC software of WATER-PAM, WinControl, is not developed for cyanobacteria, there are two problems of this software to use in cyanobacterial measurements. First, the Fm level cannot be determined by clicking the <Fo, Fm> button in the dark, since Fm could not be
+
+attained by dark acclimation in cyanobacteria as described above. Secondary, the values of the chlorophyll fluorescence parameters calculated automatically by the software are meaningless, since Fo and Fm levels cannot be determined by the action of the <Fo, Fm> button. If you want to use the <Fo, Fm> button, it is necessary to use it under illumination with weak blue light, which preferentially excites PSI and oxidizes the PQ pool.
+
+# Recipes
+
+Note: The solutions are prepared with distilled water unless otherwise specified.
+
+1. BG11 stock solutions
+
+a. Stock solution #1 0.3 g of ferric ammonium citrate 0.05 g of Na2EDTA·2H2O Per 100 ml of H2O   
+b. Stock solution #2 30 g of NaNO3 0.78 g of K2HPO4 0.73 g of MgSO4 (anhydrous) Per 1,000 ml of H2O   
+c. Stock solution #3 1.43 g of CaCl2 (anhydrous) Per 100 ml of H2O   
+d. Stock solution #4 2 g of NaNO3 Per 100 ml of H2O   
+e. Stock solution #5 2.86 g of H3BO4 1.81 g of MnCl2·4H2O 0.22 g of ZnSO4·7H2O 0.08 g of CuSO4·5H2O 0.021 g of Na2MoO4·2H2O 10 μl of sulfuric acid 0.049 g of Co (NO3)2·6H2O Per 1,000 ml of H2O   
+f. Stock solution #6 1 M TES adjusted to pH 8.0 by 1 M KOH
+
+Excepting the stock solution #1, the other BG11 stock solutions are autoclaved at 121 °C for 20 min. All the BG11 stock solutions are stored at 4 °C
+
+2. BG11 medium
+
+a. For 1 L BG11 medium, add 2 ml of Stock solution #1 50 ml of Stock solution #2 2 ml of Stock solution #3 1 ml of Stock solution #4 1 ml of Stock solution #5 20 ml of Stock solution #6 Adjust the final volume to 1,000 ml with H2O   
+b. Distribute BG11 medium into test tubes each with 30 ml   
+c. Autoclave the distributed BG11 medium at 121 °C for 20 min and then store at room temperature
+
+3. 10 mM DCMU solution in ethanol Dissolve DCMU in ethanol, store the solution at -20 °C
+
+# Acknowledgments
+
+This work was supported by JSPS Grant-in-Aid for Scientific Research on Innovative Areas (No. 16H06552 and No. 16H06553 to K.S.) and Grant-in-Aid for Scientific Research (B) (No. 16H04809 to K.S.). The authors declare no conflicts of interest.
+
+# References
+
+1. Aoki, M. and Katoh, S. (1982). Oxidation and reduction of plastoquinone by photosynthetic and respiratory electron transport in a cyanobacterium Synechococcus sp. Biochem Biophys Acta 682: 307-314.   
+2. Battchikova, N., Eisenhut, M. and Aro, E. M. (2011). Cyanobacterial NDH-1 complexes: novel insights and remaining puzzles. Biochim Biophys Acta 1807(8): 935-944.   
+3. Campbell, D., Hurry, V., Clarke, A. K., Gustafsson, P. and Oquist, G. (1998). Chlorophyll fluorescence analysis of cyanobacterial photosynthesis and acclimation. Microbiol Mol Biol Rev 62(3): 667-683.   
+4. Campbell, D. and Öquist, G. (1996). Predicting light acclimation in cyanobacteria from nonphotochemical quenching of photosystem II fluorescence, which reflects state transitions in these organisms. Plant Physiol 111(4): 1293-1298.   
+5. El Bissati, K., Delphin, E., Murata, N., Etienne, A. and Kirilovsky, D. (2000). Photosystem II fluorescence quenching in the cyanobacterium Synechocystis PCC 6803: involvement of two different mechanisms. Biochim Biophys Acta 1457(3): 229-242.   
+6. Govindjee. (1995). Sixty-three years since Kautsky: chlorophyll a fluorescence. Aust J Plant Physiol 22: 131-160.   
+7. Kirilovsky, D. (2007). Photoprotection in cyanobacteria: the orange carotenoid protein (OCP)-related non-photochemical-quenching mechanism. Photosynth Res 93(1-3): 7-16.   
+8. Krause, G. H. and Weis, E. (1991). Chlorophyll fluorescence and photosynthesis: the basics. Annu Rev Plant Physiol Plant Mol Biol 42: 313-349.   
+9. Mi, H., Endo, T., Schreiber, U., Ogawa, T. and Asada, K. (1992). Electron donation from cyclic and respiratory flows to the photosynthetic intersystem chain is mediated by pyridine nucleotide dehydrogenase in the cyanobacterium Synechocystis PCC 6803. Plant Cell Physiol 33: 1233-1237.   
+10. Misumi, M., Katoh, H., Tomo, T. and Sonoike, K. (2016). Relationship between photochemical quenching and non-photochemical quenching in six species of cyanobacteria reveals species difference in redox state and species commonality in energy dissipation. Plant Cell Physiol 57: 1510-1517.   
+11. Misumi, M. and Sonoike, K. (2017). Characterization of the influence of chlororespiration on the regulation of photosynthesis in the glaucophyte Cyanophora paradoxa. Sci Rep 7: 46100.   
+12. Mullineaux, C. W. and Allen, J. F. (1986). The state 2 transition in the cyanobacterium Synechococcus 6301 can be driven by respiratory electron flow into the plastoquinone pool. FEBS Lett 205: 155-160.   
+13. Mullineaux, C. W., Tobin, M. J. and Jones, G. R. (1997). Mobility of photosynthetic complexes in thylakoid membranes. Nature 390: 421-424.   
+14. Ogawa, T., Harada, T., Ozaki, H. and Sonoike, K. (2013). Disruption of the ndhF1 gene affects Chl fluorescence through state transition in the cyanobacterium Synechocystis sp. PCC 6803, resulting in apparent high efficiency of photosynthesis. Plant Cell Physiol 54(7): 1164-1171.   
+15. Ogawa, T. and Sonoike, K. (2015). Dissection of respiration and photosynthesis in the cyanobacterium Synechocystis sp. PCC6803 by the analysis of chlorophyll fluorescence. J Photochem Photobiol B 144: 61-67.   
+16. Ogawa, T. and Sonoike, K. (2016). Effects of bleaching by nitrogen deficiency on the quantum yield of photosystem II in Synechocystis sp. PCC 6803 revealed by Chl fluorescence measurements. Plant Cell Physiol 57(3): 558-567.   
+17. Peschek, G. A. and Schmetterer, G. (1982). Evidence for plastoquinol-cytochrome f/b-563 reductase as a common electron donor to P700 and cytochrome oxidase in cyanobacteria. Biochem Biophys Res Commun 108(3): 1188-1195.   
+18. Rippka, R., Deruelles, J., Waterbury, J. B., Herdman, M. and Stanier, R. Y. (1979). Generic assignments, strain histories and properties of pure cultures of cyanobacteria. J General Microbiology 111: 1-61.   
+19. Sonoike, K., Hihara, Y. and Ikeuchi, M. (2001). Physiological significance of the regulation of photosystem stoichiometry upon high light acclimation of Synechocystis sp. PCC 6803. Plant Cell Physiol 42(4): 379-384.
