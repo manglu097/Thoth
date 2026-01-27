@@ -1,11 +1,12 @@
+import os
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
 # ======================================================
 # Fixed configuration
 # ======================================================
-MODEL_PATH = "xxx"   
-DTYPE = "bfloat16"              
+MODEL_PATH = os.getenv("MODEL_PATH")  
+DTYPE = "bfloat16"
 ATTN_IMPL = "flash_attention_2"
 DEVICE_MAP = "auto"
 
