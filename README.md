@@ -17,7 +17,7 @@
 [📖 Citation](#-citation)
 
 
-[🤗 Thoth](https://huggingface.co/manglu3935/Thoth) • [🤗 Thoth-mini](https://huggingface.co/manglu3935/Thoth-mini) • [🤗 SciRecipe](https://huggingface.co/datasets/manglu3935/SciRecipe)
+[🤗 Thoth](https://huggingface.co/manglu3935/Thoth) • [🤗 Thoth-mini](https://huggingface.co/manglu3935/Thoth-mini) • [🤗 SciRecipe](https://huggingface.co/datasets/manglu3935/SciRecipe) • [🌐 Website](https://thothshowcase-znvpduw8.manus.space/)
 
 </div>
 
