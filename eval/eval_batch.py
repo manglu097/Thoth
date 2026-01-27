@@ -16,23 +16,27 @@ from keybert import KeyBERT
 from sentence_transformers import SentenceTransformer
 
 import nltk
-nltk.data.path.append("xxx/nltk_data")
+NLTK_DATA_DIR = os.getenv("NLTK_DATA_DIR", "").strip()
+if NLTK_DATA_DIR:
+    nltk.data.path.append(NLTK_DATA_DIR)
 
 # KeyBERT local embedding model
 KW_MODEL = KeyBERT(model=SentenceTransformer(
     "sentence-transformers/all-MiniLM-L6-v2"
 ))
 
+BERTSCORE_MODEL = os.getenv("BERTSCORE_MODEL", "roberta-large")
+BERTSCORE_DEVICE = os.getenv("BERTSCORE_DEVICE", "cuda")
 # ======================================================
 # User configuration
 # ======================================================
-MODEL_PATH = "xxx"
+MODEL_PATH   = os.getenv("MODEL_PATH", "xxx")
+INPUT_JSONL  = os.getenv("INPUT_JSONL", "xxx/SciRecipe-Eval.jsonl")
+OUTPUT_JSONL = os.getenv("OUTPUT_JSONL", "xxx/output.jsonl")
+
 DTYPE = "bfloat16"      
 ATTN_IMPL = "flash_attention_2"
 DEVICE_MAP = "auto"
-
-INPUT_JSONL  = "xxx/SciRecipe-Eval.jsonl"
-OUTPUT_JSONL = "xxx/output.jsonl"
 
 MAX_NEW_TOKENS = 1024
 TEMPERATURE    = 0.6
@@ -356,10 +360,11 @@ def compute_text_metrics(ref: str, pred: str, lang: str = "en") -> Dict[str, flo
             [pred_clean], [ref_clean],
             lang="en",
             rescale_with_baseline=False,
-            device="cuda",
-            num_layers=24,
-            model_type="/mnt/shared-storage-user/sdpdev-fs/sunhaoran/Model/roberta-large"
+            device=BERTSCORE_DEVICE,
+            model_type=BERTSCORE_MODEL,
+            num_layers=24
         )
+
 
         metrics["bertscore_p"]  = float(P.mean())
         metrics["bertscore_r"]  = float(R.mean())
