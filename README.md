@@ -10,7 +10,7 @@
 
 **A reproducible pathway for autonomous wet-lab protocol generation via structured component-based reward mechanism. 🌟If you find this project useful, please give us a star🌟.**
 
-[🚀 Quick Start](#🚀-quick-start) • 
+[🚀 Quick Start](#quick-start) • 
 [📊 Results](#📊-results) • 
 [📦 Dataset](#📦-scirecipe-dataset) • 
 [🔧 Training](#🔧-training) • 
