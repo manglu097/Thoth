@@ -11,10 +11,10 @@
 **A reproducible pathway for autonomous wet-lab protocol generation via structured component-based reward mechanism. 🌟If you find this project useful, please give us a star🌟.**
 
 [🚀 Quick Start](#-quick-start) • 
-[📊 Results](#📊-results) • 
-[📦 Dataset](#📦-scirecipe-dataset) • 
-[🔧 Training](#🔧-training) • 
-[📖 Citation](#📝-citation)
+[📊 Results](#-results) • 
+[📦 Dataset](#-scirecipe-dataset) • 
+[🔧 Training](#-training) • 
+[📖 Citation](#-citation)
 
 
 [🤗 Thoth](https://huggingface.co/manglu3935/Thoth) • [🤗 Thoth-mini](https://huggingface.co/manglu3935/Thoth-mini) • [🤗 SciRecipe](https://huggingface.co/datasets/manglu3935/SciRecipe)
@@ -402,6 +402,6 @@ If you find this project useful, please consider giving us a star! It helps us u
 
 **Made with ❤️ by the Thoth Team**
 
-[⬆ back to top](#🧬-thoth-unleashing-scientific-reasoning-for-bio-experimental-protocol-generation)
+[⬆ back to top](#-thoth-unleashing-scientific-reasoning-for-bio-experimental-protocol-generation)
 
 </div>
