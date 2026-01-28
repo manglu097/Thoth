@@ -188,14 +188,18 @@ data/
 The complete SciRecipe dataset is now available on HuggingFace Hub:
 
 ```bash
-# Access SciRecipe dataset
 from datasets import load_dataset
-dataset = load_dataset("manglu3935/SciRecipe")
 
 # Explore the dataset
-print(f"Dataset splits: {dataset.keys()}")
-print(f"Training samples: {len(dataset['train'])}")
-print(dataset['train'][0])
+train_ds = load_dataset("manglu3935/SciRecipe", "scirecipe")
+print(len(train_ds["train"]))
+print(train_ds["train"][0])
+
+# Explore the dataset
+eval_ds = load_dataset("manglu3935/SciRecipe", "scirecipe_eval")
+print(len(eval_ds["test"]))
+print(eval_ds["test"][0])
+
 ```
 
 ---
