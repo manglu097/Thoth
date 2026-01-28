@@ -3,7 +3,7 @@
 <div align="center">
 
 [![ICLR 2026](https://img.shields.io/badge/ICLR-2026-blue?style=flat-square)](https://openreview.net/group?id=ICLR.cc/2026/Conference)
-[![arXiv](https://img.shields.io/badge/arXiv-2510.15600-b31b1b?style=flat-square)](https://arxiv.org/abs/2510.15600)
+[![arXiv](https://img.shields.io/badge/arXiv-2510.15600-b31b1b?style=flat-square)](https://arxiv.org/pdf/2510.15600v2)
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](./LICENSE)
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue?style=flat-square)](https://www.python.org/downloads/)
 [![Project Page](https://img.shields.io/badge/Project-Homepage-ff69b4?style=flat-square)](https://thothshowcase-znvpduw8.manus.space/)
