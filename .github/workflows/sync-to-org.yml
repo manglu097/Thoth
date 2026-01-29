@@ -9,21 +9,25 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout (full history)
+      - name: Checkout (full history)  # ⭐关键：不要把 GITHUB_TOKEN 写进 git 凭据
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          persist-credentials: false
 
       - name: Push mirror to org repo with PAT
         env:
           ORG_REPO_TOKEN: ${{ secrets.ORG_REPO_TOKEN }}
         run: |
           if [ -z "$ORG_REPO_TOKEN" ]; then
-            echo "ERROR: ORG_REPO_TOKEN is empty (secret not injected)."
+            echo "ERROR: ORG_REPO_TOKEN is empty."
             exit 1
           fi
 
           git remote remove org 2>/dev/null || true
           git remote add org https://x-access-token:${ORG_REPO_TOKEN}@github.com/InternScience/Thoth.git
-          git remote -v
+
+          # ⭐关键：确保不会用到 checkout 写入的默认凭据
+          git config --global credential.helper ""
+
           git push --mirror org
