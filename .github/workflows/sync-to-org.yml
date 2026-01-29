@@ -2,8 +2,7 @@ name: Sync to Org Repository
 
 on:
   push:
-    branches:
-      - main
+    branches: [ main ]
   workflow_dispatch:
 
 jobs:
@@ -15,7 +14,10 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Push mirror to org repo
+      - name: Push mirror to org repo with PAT
+        env:
+          ORG_REPO_TOKEN: ${{ secrets.AI4S }}
         run: |
-          git remote add org https://x-access-token:${{ secrets.ORG_REPO_TOKEN }}@github.com/InternScience/Thoth.git
+          git remote remove org 2>/dev/null || true
+          git remote add org https://x-access-token:${AI4S}@github.com/InternScience/Thoth.git
           git push --mirror org
