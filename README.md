@@ -6,9 +6,11 @@
 [![arXiv](https://img.shields.io/badge/arXiv-2510.15600-b31b1b?style=flat-square)](https://arxiv.org/pdf/2510.15600v2)
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](./LICENSE)
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue?style=flat-square)](https://www.python.org/downloads/)
-[![Project Page](https://img.shields.io/badge/Project-Homepage-ff69b4?style=flat-square)](https://thothshowcase-znvpduw8.manus.space/)
+[![Project Page](https://img.shields.io/badge/Project-Homepage-ff69b4?style=flat-square)](https://manglu097.github.io/Thothweb/)
 
-**A reproducible pathway for autonomous wet-lab protocol generation via structured component-based reward mechanism. 🌟If you find this project useful, please give us a star🌟.**
+**A reproducible pathway for autonomous wet-lab protocol generation.**
+
+**🌟If you find this project useful, please give us a star🌟.**
 
 [🚀 Quick Start](#-quick-start) • 
 [📊 Results](#-results) • 
@@ -17,7 +19,7 @@
 [📖 Citation](#-citation)
 
 
-[🤗 Thoth](https://huggingface.co/manglu3935/Thoth) • [🤗 Thoth-mini](https://huggingface.co/manglu3935/Thoth-mini) • [🤗 SciRecipe](https://huggingface.co/datasets/manglu3935/SciRecipe) • [🌐 Website](https://thothshowcase-znvpduw8.manus.space/)
+[🤗 Thoth](https://huggingface.co/manglu3935/Thoth) • [🤗 Thoth-mini](https://huggingface.co/manglu3935/Thoth-mini) • [🤗 SciRecipe](https://huggingface.co/datasets/manglu3935/SciRecipe) • [🌐 Website](https://manglu097.github.io/Thothweb/)
 
 </div>
 
@@ -164,7 +166,7 @@ data/
     └── prompt2.py      # Prompt templates for SciRecipe2
 ├── mineru_pdf/         # Extracted protocol text (MinerU processed)
 ├── origin_pdf/         # Original experimental protocol PDFs
-└── train_data/         # Processed SciRecipe training data
+└── train_data/         # Processed SciRecipe training data （demo）
 ```
 
 ### Task Categories
@@ -243,12 +245,10 @@ The **Structured COmponent-based REward** evaluates protocols across four dimens
 #### 3. Step Scale Reward
 - Measures gap between generated and ground-truth step counts
 - Penalizes both under- and over-generation
-- Formula: `f(d) = cos(π·d/2M)` where d is step count difference
 
 #### 4. Step Semantics Reward
 - **Order Consistency**: Evaluates action sequence alignment using LCS or strict subsequence matching
 - **Semantic Consistency**: Measures object and parameter overlap for aligned steps
-- Combined formula: `r_semantics = r_order · r_semantic`
 
 
 
