@@ -1,0 +1,21 @@
+name: Sync to Org Repository
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout (full history)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Push mirror to org repo
+        run: |
+          git remote add org https://x-access-token:${{ secrets.ORG_REPO_TOKEN }}@github.com/InternScience/Thoth.git
+          git push --mirror org
