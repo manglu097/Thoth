@@ -9,14 +9,7 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout (full history, no submodules)
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-          persist-credentials: false
-          submodules: false
-
-      - name: Push mirror to org repo with PAT
+      - name: Mirror sync without checkout (avoids submodules)
         env:
           ORG_REPO_TOKEN: ${{ secrets.ORG_REPO_TOKEN }}
         run: |
@@ -24,7 +17,11 @@ jobs:
             echo "ERROR: ORG_REPO_TOKEN is empty."
             exit 1
           fi
-          git config --global credential.helper ""
-          git remote remove org 2>/dev/null || true
-          git remote add org https://x-access-token:${ORG_REPO_TOKEN}@github.com/InternScience/Thoth.git
+
+          SRC=https://github.com/manglu097/Thoth.git
+          DST=https://x-access-token:${ORG_REPO_TOKEN}@github.com/InternScience/Thoth.git
+
+          git clone --mirror "$SRC" repo.git
+          cd repo.git
+          git remote add org "$DST"
           git push --mirror org
