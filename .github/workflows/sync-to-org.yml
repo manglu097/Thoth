@@ -16,8 +16,14 @@ jobs:
 
       - name: Push mirror to org repo with PAT
         env:
-          ORG_REPO_TOKEN: ${{ secrets.AI4S }}
+          ORG_REPO_TOKEN: ${{ secrets.ORG_REPO_TOKEN }}
         run: |
+          if [ -z "$ORG_REPO_TOKEN" ]; then
+            echo "ERROR: ORG_REPO_TOKEN is empty (secret not injected)."
+            exit 1
+          fi
+
           git remote remove org 2>/dev/null || true
-          git remote add org https://x-access-token:${AI4S}@github.com/InternScience/Thoth.git
+          git remote add org https://x-access-token:${ORG_REPO_TOKEN}@github.com/InternScience/Thoth.git
+          git remote -v
           git push --mirror org
